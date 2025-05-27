@@ -4,7 +4,7 @@
 ## Installation
 ### Step - 1
 #### Clone the project
-``` git clone https://github.com/dambaruu_erp.git```
+``` git clone https://github.com/mdrahamtansari123/cart_system.git```
 ### Step - 2
 #### Create Virtualenvironment
 ``` virtualenv env```
