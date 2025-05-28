@@ -10,7 +10,7 @@
 ``` virtualenv env```
 ### Step - 3
 #### Activate virtualenv
-``` source env/Script/Activate```
+``` source env/Scripts/activate```
 ### Step - 4
 #### Install all depedancies
 
