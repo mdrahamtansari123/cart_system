@@ -4,11 +4,11 @@ This is a Django REST Framework-based backend for managing a simple shopping car
 📁 Project Structure
 
 
-```├── cart/                  # Cart and Product models```
-```├── api/                   # API views, urls and serializers```
-```├── manage.py```
-```├── requirements.txt```
-```└── README.md```
+├── cart/ # Cart and Product models
+├── api/ # API views, URLs, and serializers
+├── manage.py
+├── requirements.txt
+└── README.md
 
 
 ## Installation
@@ -52,14 +52,16 @@ This is a Django REST Framework-based backend for managing a simple shopping car
 
 
 ✅ Features to Implement
-🛒 Cart system:
+ Cart Features to Implement
 Add item to cart
 
--Remove item from cart
--Update item quantity
--Clear all items from cart
--Update item quantity
--Calculate total cart price
+Remove item from cart
+
+Update item quantity
+
+Clear all items from cart
+
+Calculate total cart price
 
  Endpoint                          Description                              
 
