@@ -27,11 +27,11 @@ class CartItem(models.Model):
             if not self.pk and self.product.quantity < self.total_quantity:
                 raise ValueError("Not enough product in stock.")
 
-            # Calculate total price
+           
             self.total_price = self.product.price * self.total_quantity
 
-            # Update product quantity
-            if not self.pk:  # Only reduce stock for new items
+            
+            if not self.pk:  
                 self.product.quantity -= self.total_quantity
                 self.product.save()
         super().save(*args, **kwargs)

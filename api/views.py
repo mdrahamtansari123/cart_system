@@ -5,9 +5,7 @@ from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
 from django.db import transaction
 from cart.models import CartItem,Product
-from api.serializers import CartItemSerializer,LoginSerializer, ProductSerializer
-
-from .serializers import RegisterSerializer
+from api.serializers import CartItemSerializer,LoginSerializer, ProductSerializer,RegisterSerializer
 from django.contrib.auth.models import User
 
 class RegisterView(generics.CreateAPIView):
