@@ -1,4 +1,14 @@
-# Backend Cart System
+# 🛍️ Django Cart API
+
+This is a Django REST Framework-based backend for managing a simple shopping cart with user authentication, product management, and cart item operations using JWT authentication.
+📁 Project Structure
+
+
+├── cart/                  # Cart and Product models
+├── api/                   # API views, urls and serializers
+├── manage.py
+├── requirements.txt
+└── README.md
 
 
 ## Installation
@@ -34,13 +44,33 @@
 #### API documentaion URL
 - Swagger :- http:1270.0.1:8000/swagger/
 
-- Project Structure :
+## 🚀 Features
 
-project Name :- ecommerce
+- User login with JWT (username:- admin, password:- Admin@123)
+- Product management (CRUD)
+- Add Product 
 
-App:-  cart              := Cart - models
 
-App:- api                :- views , serializers, urls
+✅ Features to Implement
+🛒 Cart system:
+Add item to cart
+
+-Remove item from cart
+-Update item quantity
+-Clear all items from cart
+-Update item quantity
+-Calculate total cart price
+
+ Endpoint                          Description                              
+
+ `/api/cart/`            GET     List all cart items for the current user 
+ `/api/cart/`            POST    Add item to cart                         
+ `/api/cart/<item_id>/`  PUT     Update item quantity                     
+ `/api/cart/<item_id>/`  DELETE  Remove item from cart                    
+ `/api/cart/clear/`      DELETE  Clear all cart items                     
+ `/api/cart/total/`      GET     Get total cart price                     
+
+
 
 
 
