@@ -34,3 +34,13 @@
 #### API documentaion URL
 - Swagger :- http:1270.0.1:8000/swagger/
 
+- Project Structure :
+
+project Name :- ecommerce
+
+App:-  cart              := Cart - models
+
+App:- api                :- views , serializers, urls
+
+
+
