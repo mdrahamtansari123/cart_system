@@ -4,11 +4,11 @@ This is a Django REST Framework-based backend for managing a simple shopping car
 📁 Project Structure
 
 
-├── cart/                  # Cart and Product models
-├── api/                   # API views, urls and serializers
-├── manage.py
-├── requirements.txt
-└── README.md
+```├── cart/                  # Cart and Product models```
+```├── api/                   # API views, urls and serializers```
+```├── manage.py```
+```├── requirements.txt```
+```└── README.md```
 
 
 ## Installation
